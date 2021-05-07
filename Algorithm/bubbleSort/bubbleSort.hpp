@@ -9,8 +9,8 @@
 #define bubbleSort_hpp
 
 #include <stdio.h>
-#include "../Timer/Timer.hpp"
-#include "../Sort/Sort.hpp"
+#include "Timer.hpp"
+#include "Sort.hpp"
 void bubbleSort();
 
 #endif /* bubbleSort_hpp */

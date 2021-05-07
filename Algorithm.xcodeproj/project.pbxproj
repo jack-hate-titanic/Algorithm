@@ -11,6 +11,9 @@
 		EA40D2D8263D178300AE93E0 /* bubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D2D6263D178300AE93E0 /* bubbleSort.cpp */; };
 		EA40D2DF263D1A3500AE93E0 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D2DD263D1A3500AE93E0 /* Timer.cpp */; };
 		EA40D2E52644A97900AE93E0 /* Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D2E32644A97900AE93E0 /* Sort.cpp */; };
+		EA40D2EC2644FA0000AE93E0 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D2EA2644FA0000AE93E0 /* Node.cpp */; };
+		EA40D2F22644FCAF00AE93E0 /* isCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D2F02644FCAF00AE93E0 /* isCycle.cpp */; };
+		EA40D2F826453A6700AE93E0 /* CycleLength.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D2F626453A6700AE93E0 /* CycleLength.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +37,12 @@
 		EA40D2DE263D1A3500AE93E0 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		EA40D2E32644A97900AE93E0 /* Sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sort.cpp; sourceTree = "<group>"; };
 		EA40D2E42644A97900AE93E0 /* Sort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sort.hpp; sourceTree = "<group>"; };
+		EA40D2EA2644FA0000AE93E0 /* Node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		EA40D2EB2644FA0000AE93E0 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
+		EA40D2F02644FCAF00AE93E0 /* isCycle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = isCycle.cpp; sourceTree = "<group>"; };
+		EA40D2F12644FCAF00AE93E0 /* isCycle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = isCycle.hpp; sourceTree = "<group>"; };
+		EA40D2F626453A6700AE93E0 /* CycleLength.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CycleLength.cpp; sourceTree = "<group>"; };
+		EA40D2F726453A6700AE93E0 /* CycleLength.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CycleLength.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +75,8 @@
 		EA40D2CD263D14A100AE93E0 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				EA40D2E92644F9D400AE93E0 /* Node */,
+				EA40D2E82644F9AC00AE93E0 /* cycle */,
 				EA40D2E22644A95800AE93E0 /* Sort */,
 				EA40D2DC263D1A1900AE93E0 /* Timer */,
 				EA40D2DA263D181E00AE93E0 /* bubbleSort */,
@@ -99,6 +110,26 @@
 				EA40D2E42644A97900AE93E0 /* Sort.hpp */,
 			);
 			path = Sort;
+			sourceTree = "<group>";
+		};
+		EA40D2E82644F9AC00AE93E0 /* cycle */ = {
+			isa = PBXGroup;
+			children = (
+				EA40D2F02644FCAF00AE93E0 /* isCycle.cpp */,
+				EA40D2F12644FCAF00AE93E0 /* isCycle.hpp */,
+				EA40D2F626453A6700AE93E0 /* CycleLength.cpp */,
+				EA40D2F726453A6700AE93E0 /* CycleLength.hpp */,
+			);
+			path = cycle;
+			sourceTree = "<group>";
+		};
+		EA40D2E92644F9D400AE93E0 /* Node */ = {
+			isa = PBXGroup;
+			children = (
+				EA40D2EA2644FA0000AE93E0 /* Node.cpp */,
+				EA40D2EB2644FA0000AE93E0 /* Node.hpp */,
+			);
+			path = Node;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,10 +188,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA40D2F826453A6700AE93E0 /* CycleLength.cpp in Sources */,
+				EA40D2F22644FCAF00AE93E0 /* isCycle.cpp in Sources */,
 				EA40D2DF263D1A3500AE93E0 /* Timer.cpp in Sources */,
 				EA40D2E52644A97900AE93E0 /* Sort.cpp in Sources */,
 				EA40D2CF263D14A100AE93E0 /* main.cpp in Sources */,
 				EA40D2D8263D178300AE93E0 /* bubbleSort.cpp in Sources */,
+				EA40D2EC2644FA0000AE93E0 /* Node.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
