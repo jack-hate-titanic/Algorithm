@@ -14,6 +14,10 @@
 		EA40D2EC2644FA0000AE93E0 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D2EA2644FA0000AE93E0 /* Node.cpp */; };
 		EA40D2F22644FCAF00AE93E0 /* isCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D2F02644FCAF00AE93E0 /* isCycle.cpp */; };
 		EA40D2F826453A6700AE93E0 /* CycleLength.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D2F626453A6700AE93E0 /* CycleLength.cpp */; };
+		EA40D2FD2645466400AE93E0 /* DeleteDuplicates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D2FB2645466400AE93E0 /* DeleteDuplicates.cpp */; };
+		EA40D30326454C2A00AE93E0 /* MiniStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D30126454C2A00AE93E0 /* MiniStack.cpp */; };
+		EA40D30E2646945900AE93E0 /* binaryTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D30C2646945900AE93E0 /* binaryTransform.cpp */; };
+		EA40D3152646B99200AE93E0 /* Fib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D3132646B99200AE93E0 /* Fib.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +47,14 @@
 		EA40D2F12644FCAF00AE93E0 /* isCycle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = isCycle.hpp; sourceTree = "<group>"; };
 		EA40D2F626453A6700AE93E0 /* CycleLength.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CycleLength.cpp; sourceTree = "<group>"; };
 		EA40D2F726453A6700AE93E0 /* CycleLength.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CycleLength.hpp; sourceTree = "<group>"; };
+		EA40D2FB2645466400AE93E0 /* DeleteDuplicates.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DeleteDuplicates.cpp; sourceTree = "<group>"; };
+		EA40D2FC2645466400AE93E0 /* DeleteDuplicates.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DeleteDuplicates.hpp; sourceTree = "<group>"; };
+		EA40D30126454C2A00AE93E0 /* MiniStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MiniStack.cpp; sourceTree = "<group>"; };
+		EA40D30226454C2A00AE93E0 /* MiniStack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MiniStack.hpp; sourceTree = "<group>"; };
+		EA40D30C2646945900AE93E0 /* binaryTransform.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = binaryTransform.cpp; sourceTree = "<group>"; };
+		EA40D30D2646945900AE93E0 /* binaryTransform.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = binaryTransform.hpp; sourceTree = "<group>"; };
+		EA40D3132646B99200AE93E0 /* Fib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Fib.cpp; sourceTree = "<group>"; };
+		EA40D3142646B99200AE93E0 /* Fib.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fib.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +87,10 @@
 		EA40D2CD263D14A100AE93E0 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				EA40D3112646B97400AE93E0 /* Fib */,
+				EA40D30B264693F800AE93E0 /* XOR */,
+				EA40D30026454C1400AE93E0 /* Stack */,
+				EA40D2FA2645460500AE93E0 /* Array */,
 				EA40D2E92644F9D400AE93E0 /* Node */,
 				EA40D2E82644F9AC00AE93E0 /* cycle */,
 				EA40D2E22644A95800AE93E0 /* Sort */,
@@ -130,6 +146,42 @@
 				EA40D2EB2644FA0000AE93E0 /* Node.hpp */,
 			);
 			path = Node;
+			sourceTree = "<group>";
+		};
+		EA40D2FA2645460500AE93E0 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				EA40D2FB2645466400AE93E0 /* DeleteDuplicates.cpp */,
+				EA40D2FC2645466400AE93E0 /* DeleteDuplicates.hpp */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		EA40D30026454C1400AE93E0 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				EA40D30126454C2A00AE93E0 /* MiniStack.cpp */,
+				EA40D30226454C2A00AE93E0 /* MiniStack.hpp */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		EA40D30B264693F800AE93E0 /* XOR */ = {
+			isa = PBXGroup;
+			children = (
+				EA40D30C2646945900AE93E0 /* binaryTransform.cpp */,
+				EA40D30D2646945900AE93E0 /* binaryTransform.hpp */,
+			);
+			path = XOR;
+			sourceTree = "<group>";
+		};
+		EA40D3112646B97400AE93E0 /* Fib */ = {
+			isa = PBXGroup;
+			children = (
+				EA40D3132646B99200AE93E0 /* Fib.cpp */,
+				EA40D3142646B99200AE93E0 /* Fib.hpp */,
+			);
+			path = Fib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +244,13 @@
 				EA40D2F22644FCAF00AE93E0 /* isCycle.cpp in Sources */,
 				EA40D2DF263D1A3500AE93E0 /* Timer.cpp in Sources */,
 				EA40D2E52644A97900AE93E0 /* Sort.cpp in Sources */,
+				EA40D3152646B99200AE93E0 /* Fib.cpp in Sources */,
 				EA40D2CF263D14A100AE93E0 /* main.cpp in Sources */,
 				EA40D2D8263D178300AE93E0 /* bubbleSort.cpp in Sources */,
+				EA40D2FD2645466400AE93E0 /* DeleteDuplicates.cpp in Sources */,
+				EA40D30E2646945900AE93E0 /* binaryTransform.cpp in Sources */,
 				EA40D2EC2644FA0000AE93E0 /* Node.cpp in Sources */,
+				EA40D30326454C2A00AE93E0 /* MiniStack.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
