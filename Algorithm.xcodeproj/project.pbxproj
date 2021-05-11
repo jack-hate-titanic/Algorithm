@@ -18,6 +18,8 @@
 		EA40D30326454C2A00AE93E0 /* MiniStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D30126454C2A00AE93E0 /* MiniStack.cpp */; };
 		EA40D30E2646945900AE93E0 /* binaryTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D30C2646945900AE93E0 /* binaryTransform.cpp */; };
 		EA40D3152646B99200AE93E0 /* Fib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D3132646B99200AE93E0 /* Fib.cpp */; };
+		EA40D31B2647D45800AE93E0 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D3192647D45800AE93E0 /* TreeNode.cpp */; };
+		EA40D321264A144500AE93E0 /* Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D31F264A144500AE93E0 /* Tree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +57,10 @@
 		EA40D30D2646945900AE93E0 /* binaryTransform.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = binaryTransform.hpp; sourceTree = "<group>"; };
 		EA40D3132646B99200AE93E0 /* Fib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Fib.cpp; sourceTree = "<group>"; };
 		EA40D3142646B99200AE93E0 /* Fib.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fib.hpp; sourceTree = "<group>"; };
+		EA40D3192647D45800AE93E0 /* TreeNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TreeNode.cpp; sourceTree = "<group>"; };
+		EA40D31A2647D45800AE93E0 /* TreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TreeNode.hpp; sourceTree = "<group>"; };
+		EA40D31F264A144500AE93E0 /* Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tree.cpp; sourceTree = "<group>"; };
+		EA40D320264A144500AE93E0 /* Tree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tree.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,7 @@
 		EA40D2CD263D14A100AE93E0 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				EA40D3182647CE2D00AE93E0 /* Tree */,
 				EA40D3112646B97400AE93E0 /* Fib */,
 				EA40D30B264693F800AE93E0 /* XOR */,
 				EA40D30026454C1400AE93E0 /* Stack */,
@@ -184,6 +191,17 @@
 			path = Fib;
 			sourceTree = "<group>";
 		};
+		EA40D3182647CE2D00AE93E0 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				EA40D3192647D45800AE93E0 /* TreeNode.cpp */,
+				EA40D31A2647D45800AE93E0 /* TreeNode.hpp */,
+				EA40D31F264A144500AE93E0 /* Tree.cpp */,
+				EA40D320264A144500AE93E0 /* Tree.hpp */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -247,6 +265,8 @@
 				EA40D3152646B99200AE93E0 /* Fib.cpp in Sources */,
 				EA40D2CF263D14A100AE93E0 /* main.cpp in Sources */,
 				EA40D2D8263D178300AE93E0 /* bubbleSort.cpp in Sources */,
+				EA40D31B2647D45800AE93E0 /* TreeNode.cpp in Sources */,
+				EA40D321264A144500AE93E0 /* Tree.cpp in Sources */,
 				EA40D2FD2645466400AE93E0 /* DeleteDuplicates.cpp in Sources */,
 				EA40D30E2646945900AE93E0 /* binaryTransform.cpp in Sources */,
 				EA40D2EC2644FA0000AE93E0 /* Node.cpp in Sources */,
