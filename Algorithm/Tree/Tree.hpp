@@ -21,7 +21,10 @@ public:
     Tree();
     ~Tree();
     void insert(int x);
+    // 前序遍历
     static void preOrderTraveral(TreeNode *node);
+    // 中序遍历
+    static void inOrderTraveral(TreeNode *node);
 };
 
 #endif /* Tree_hpp */

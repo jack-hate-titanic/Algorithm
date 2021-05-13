@@ -17,5 +17,5 @@ int main(int argc, const char * argv[]) {
     for(int i=0;i<sizeof(arr)/sizeof(arr[0]);i++){
         tree->insert(arr[i]);
     }
-    Tree::preOrderTraveral(tree->root);
+    Tree::inOrderTraveral(tree->root);
 };

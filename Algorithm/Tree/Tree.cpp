@@ -44,3 +44,12 @@ void Tree::preOrderTraveral(TreeNode *node){
     preOrderTraveral(node->leftChild);
     preOrderTraveral(node->rightChild);
 }
+
+void Tree::inOrderTraveral(TreeNode *node){
+    if(node==NULL){
+        return;
+    }
+    inOrderTraveral(node->leftChild);
+    cout<<node->data<<endl;
+    inOrderTraveral(node->rightChild);
+}
