@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA218A642650B6D300C93964 /* MemoFib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA218A622650B6D300C93964 /* MemoFib.cpp */; };
 		EA40D2CF263D14A100AE93E0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D2CE263D14A100AE93E0 /* main.cpp */; };
 		EA40D2D8263D178300AE93E0 /* bubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D2D6263D178300AE93E0 /* bubbleSort.cpp */; };
 		EA40D2DF263D1A3500AE93E0 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D2DD263D1A3500AE93E0 /* Timer.cpp */; };
@@ -35,6 +36,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EA218A622650B6D300C93964 /* MemoFib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MemoFib.cpp; sourceTree = "<group>"; };
+		EA218A632650B6D300C93964 /* MemoFib.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MemoFib.hpp; sourceTree = "<group>"; };
 		EA40D2CB263D14A100AE93E0 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA40D2CE263D14A100AE93E0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EA40D2D6263D178300AE93E0 /* bubbleSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bubbleSort.cpp; sourceTree = "<group>"; };
@@ -187,6 +190,8 @@
 			children = (
 				EA40D3132646B99200AE93E0 /* Fib.cpp */,
 				EA40D3142646B99200AE93E0 /* Fib.hpp */,
+				EA218A622650B6D300C93964 /* MemoFib.cpp */,
+				EA218A632650B6D300C93964 /* MemoFib.hpp */,
 			);
 			path = Fib;
 			sourceTree = "<group>";
@@ -269,6 +274,7 @@
 				EA40D321264A144500AE93E0 /* Tree.cpp in Sources */,
 				EA40D2FD2645466400AE93E0 /* DeleteDuplicates.cpp in Sources */,
 				EA40D30E2646945900AE93E0 /* binaryTransform.cpp in Sources */,
+				EA218A642650B6D300C93964 /* MemoFib.cpp in Sources */,
 				EA40D2EC2644FA0000AE93E0 /* Node.cpp in Sources */,
 				EA40D30326454C2A00AE93E0 /* MiniStack.cpp in Sources */,
 			);
