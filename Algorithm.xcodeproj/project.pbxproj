@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EA1BEDCC265A97C800A21808 /* Two Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA1BEDCA265A97C800A21808 /* Two Sum.cpp */; };
 		EA218A642650B6D300C93964 /* MemoFib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA218A622650B6D300C93964 /* MemoFib.cpp */; };
+		EA276E24265AA9940094336C /* TwoSum2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA276E22265AA9940094336C /* TwoSum2.cpp */; };
 		EA40D2CF263D14A100AE93E0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D2CE263D14A100AE93E0 /* main.cpp */; };
 		EA40D2D8263D178300AE93E0 /* bubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D2D6263D178300AE93E0 /* bubbleSort.cpp */; };
 		EA40D2DF263D1A3500AE93E0 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D2DD263D1A3500AE93E0 /* Timer.cpp */; };
@@ -41,6 +42,8 @@
 		EA1BEDCB265A97C800A21808 /* Two Sum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Two Sum.hpp"; sourceTree = "<group>"; };
 		EA218A622650B6D300C93964 /* MemoFib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MemoFib.cpp; sourceTree = "<group>"; };
 		EA218A632650B6D300C93964 /* MemoFib.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MemoFib.hpp; sourceTree = "<group>"; };
+		EA276E22265AA9940094336C /* TwoSum2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSum2.cpp; sourceTree = "<group>"; };
+		EA276E23265AA9940094336C /* TwoSum2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TwoSum2.hpp; sourceTree = "<group>"; };
 		EA40D2CB263D14A100AE93E0 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA40D2CE263D14A100AE93E0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EA40D2D6263D178300AE93E0 /* bubbleSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bubbleSort.cpp; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 			children = (
 				EA1BEDCA265A97C800A21808 /* Two Sum.cpp */,
 				EA1BEDCB265A97C800A21808 /* Two Sum.hpp */,
+				EA276E22265AA9940094336C /* TwoSum2.cpp */,
+				EA276E23265AA9940094336C /* TwoSum2.hpp */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 				EA40D2FD2645466400AE93E0 /* DeleteDuplicates.cpp in Sources */,
 				EA40D30E2646945900AE93E0 /* binaryTransform.cpp in Sources */,
 				EA218A642650B6D300C93964 /* MemoFib.cpp in Sources */,
+				EA276E24265AA9940094336C /* TwoSum2.cpp in Sources */,
 				EA40D2EC2644FA0000AE93E0 /* Node.cpp in Sources */,
 				EA40D30326454C2A00AE93E0 /* MiniStack.cpp in Sources */,
 			);

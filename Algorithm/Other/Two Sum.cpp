@@ -7,7 +7,7 @@
 
 #include "Two Sum.hpp"
 
-// 这是leecode第一题
+// 这是leecode第一题  解法一:暴力解法
 
 vector<int> twoSum(int arr[],int arrLength,int target){
     vector<int> vec;
@@ -20,9 +20,6 @@ vector<int> twoSum(int arr[],int arrLength,int target){
             }
         }
     }
-    if(vec.size()==0){
-        throw "数组中没有相加为target的两个值";
-    }
-    return vec;
+    throw "数组中没有相加为target的两个值";
 };
 
