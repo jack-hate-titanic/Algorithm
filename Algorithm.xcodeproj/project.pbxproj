@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA1BEDCC265A97C800A21808 /* Two Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA1BEDCA265A97C800A21808 /* Two Sum.cpp */; };
 		EA218A642650B6D300C93964 /* MemoFib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA218A622650B6D300C93964 /* MemoFib.cpp */; };
 		EA40D2CF263D14A100AE93E0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D2CE263D14A100AE93E0 /* main.cpp */; };
 		EA40D2D8263D178300AE93E0 /* bubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA40D2D6263D178300AE93E0 /* bubbleSort.cpp */; };
@@ -36,6 +37,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EA1BEDCA265A97C800A21808 /* Two Sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Two Sum.cpp"; sourceTree = "<group>"; };
+		EA1BEDCB265A97C800A21808 /* Two Sum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Two Sum.hpp"; sourceTree = "<group>"; };
 		EA218A622650B6D300C93964 /* MemoFib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MemoFib.cpp; sourceTree = "<group>"; };
 		EA218A632650B6D300C93964 /* MemoFib.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MemoFib.hpp; sourceTree = "<group>"; };
 		EA40D2CB263D14A100AE93E0 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA1BEDC3265A978500A21808 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EA1BEDCA265A97C800A21808 /* Two Sum.cpp */,
+				EA1BEDCB265A97C800A21808 /* Two Sum.hpp */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		EA40D2C2263D14A100AE93E0 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +108,7 @@
 		EA40D2CD263D14A100AE93E0 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				EA1BEDC3265A978500A21808 /* Other */,
 				EA40D3182647CE2D00AE93E0 /* Tree */,
 				EA40D3112646B97400AE93E0 /* Fib */,
 				EA40D30B264693F800AE93E0 /* XOR */,
@@ -270,6 +283,7 @@
 				EA40D3152646B99200AE93E0 /* Fib.cpp in Sources */,
 				EA40D2CF263D14A100AE93E0 /* main.cpp in Sources */,
 				EA40D2D8263D178300AE93E0 /* bubbleSort.cpp in Sources */,
+				EA1BEDCC265A97C800A21808 /* Two Sum.cpp in Sources */,
 				EA40D31B2647D45800AE93E0 /* TreeNode.cpp in Sources */,
 				EA40D321264A144500AE93E0 /* Tree.cpp in Sources */,
 				EA40D2FD2645466400AE93E0 /* DeleteDuplicates.cpp in Sources */,
