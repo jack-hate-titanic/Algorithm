@@ -20,6 +20,9 @@ vector<int> twoSum(int arr[],int arrLength,int target){
             }
         }
     }
+    if(vec.size()==0){
+        throw "数组中没有相加为target的两个值";
+    }
     return vec;
 };
 
