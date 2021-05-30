@@ -70,6 +70,7 @@
 		EA40D31A2647D45800AE93E0 /* TreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TreeNode.hpp; sourceTree = "<group>"; };
 		EA40D31F264A144500AE93E0 /* Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tree.cpp; sourceTree = "<group>"; };
 		EA40D320264A144500AE93E0 /* Tree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tree.hpp; sourceTree = "<group>"; };
+		EA5BB4B62663E9F100B6BE17 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +126,7 @@
 				EA40D2DC263D1A1900AE93E0 /* Timer */,
 				EA40D2DA263D181E00AE93E0 /* bubbleSort */,
 				EA40D2CE263D14A100AE93E0 /* main.cpp */,
+				EA5BB4B62663E9F100B6BE17 /* README.md */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
