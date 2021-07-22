@@ -26,9 +26,9 @@ int binarySearch(int arr[],int n,int target){
 }
 
 
-int main(){
-    int arr[]={1,2,33,46,58};
-    int target=binarySearch(arr, sizeof(arr)/ sizeof(arr[0]),58);
-    cout<<target<<endl;
-    return 0;
-}
+//int main(){
+//    int arr[]={1,2,33,46,58};
+//    int target=binarySearch(arr, sizeof(arr)/ sizeof(arr[0]),58);
+//    cout<<target<<endl;
+//    return 0;
+//}

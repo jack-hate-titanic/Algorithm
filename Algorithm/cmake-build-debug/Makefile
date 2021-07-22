@@ -170,6 +170,33 @@ BinarySearch/binarySearch.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/BinarySearch/binarySearch.cpp.s
 .PHONY : BinarySearch/binarySearch.cpp.s
 
+LeetCode/283MoveZero.o: LeetCode/283MoveZero.cpp.o
+
+.PHONY : LeetCode/283MoveZero.o
+
+# target to build an object file
+LeetCode/283MoveZero.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/LeetCode/283MoveZero.cpp.o
+.PHONY : LeetCode/283MoveZero.cpp.o
+
+LeetCode/283MoveZero.i: LeetCode/283MoveZero.cpp.i
+
+.PHONY : LeetCode/283MoveZero.i
+
+# target to preprocess a source file
+LeetCode/283MoveZero.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/LeetCode/283MoveZero.cpp.i
+.PHONY : LeetCode/283MoveZero.cpp.i
+
+LeetCode/283MoveZero.s: LeetCode/283MoveZero.cpp.s
+
+.PHONY : LeetCode/283MoveZero.s
+
+# target to generate assembly for a file
+LeetCode/283MoveZero.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/LeetCode/283MoveZero.cpp.s
+.PHONY : LeetCode/283MoveZero.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -209,6 +236,9 @@ help:
 	@echo "... BinarySearch/binarySearch.o"
 	@echo "... BinarySearch/binarySearch.i"
 	@echo "... BinarySearch/binarySearch.s"
+	@echo "... LeetCode/283MoveZero.o"
+	@echo "... LeetCode/283MoveZero.i"
+	@echo "... LeetCode/283MoveZero.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

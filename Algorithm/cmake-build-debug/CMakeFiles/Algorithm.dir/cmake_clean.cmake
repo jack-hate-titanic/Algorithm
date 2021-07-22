@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "Algorithm"
   "Algorithm.pdb"
   "CMakeFiles/Algorithm.dir/BinarySearch/binarySearch.cpp.o"
+  "CMakeFiles/Algorithm.dir/LeetCode/283MoveZero.cpp.o"
   "CMakeFiles/Algorithm.dir/main.cpp.o"
 )
 

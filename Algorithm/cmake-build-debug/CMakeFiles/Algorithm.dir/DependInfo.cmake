@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/wson/Desktop/Algorithm/Algorithm/BinarySearch/binarySearch.cpp" "/Users/wson/Desktop/Algorithm/Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/BinarySearch/binarySearch.cpp.o"
+  "/Users/wson/Desktop/Algorithm/Algorithm/LeetCode/283MoveZero.cpp" "/Users/wson/Desktop/Algorithm/Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/LeetCode/283MoveZero.cpp.o"
   "/Users/wson/Desktop/Algorithm/Algorithm/main.cpp" "/Users/wson/Desktop/Algorithm/Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
