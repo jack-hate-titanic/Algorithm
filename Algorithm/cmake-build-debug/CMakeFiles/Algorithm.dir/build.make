@@ -116,11 +116,95 @@ CMakeFiles/Algorithm.dir/LeetCode/283MoveZero.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/LeetCode/283MoveZero.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wson/Desktop/Algorithm/Algorithm/LeetCode/283MoveZero.cpp -o CMakeFiles/Algorithm.dir/LeetCode/283MoveZero.cpp.s
 
+CMakeFiles/Algorithm.dir/LeetCode/27removeElement.cpp.o: CMakeFiles/Algorithm.dir/flags.make
+CMakeFiles/Algorithm.dir/LeetCode/27removeElement.cpp.o: ../LeetCode/27removeElement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wson/Desktop/Algorithm/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Algorithm.dir/LeetCode/27removeElement.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithm.dir/LeetCode/27removeElement.cpp.o -c /Users/wson/Desktop/Algorithm/Algorithm/LeetCode/27removeElement.cpp
+
+CMakeFiles/Algorithm.dir/LeetCode/27removeElement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm.dir/LeetCode/27removeElement.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wson/Desktop/Algorithm/Algorithm/LeetCode/27removeElement.cpp > CMakeFiles/Algorithm.dir/LeetCode/27removeElement.cpp.i
+
+CMakeFiles/Algorithm.dir/LeetCode/27removeElement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/LeetCode/27removeElement.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wson/Desktop/Algorithm/Algorithm/LeetCode/27removeElement.cpp -o CMakeFiles/Algorithm.dir/LeetCode/27removeElement.cpp.s
+
+CMakeFiles/Algorithm.dir/Array/boundary.cpp.o: CMakeFiles/Algorithm.dir/flags.make
+CMakeFiles/Algorithm.dir/Array/boundary.cpp.o: ../Array/boundary.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wson/Desktop/Algorithm/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Algorithm.dir/Array/boundary.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithm.dir/Array/boundary.cpp.o -c /Users/wson/Desktop/Algorithm/Algorithm/Array/boundary.cpp
+
+CMakeFiles/Algorithm.dir/Array/boundary.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm.dir/Array/boundary.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wson/Desktop/Algorithm/Algorithm/Array/boundary.cpp > CMakeFiles/Algorithm.dir/Array/boundary.cpp.i
+
+CMakeFiles/Algorithm.dir/Array/boundary.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/Array/boundary.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wson/Desktop/Algorithm/Algorithm/Array/boundary.cpp -o CMakeFiles/Algorithm.dir/Array/boundary.cpp.s
+
+CMakeFiles/Algorithm.dir/LeetCode/72sortColor.cpp.o: CMakeFiles/Algorithm.dir/flags.make
+CMakeFiles/Algorithm.dir/LeetCode/72sortColor.cpp.o: ../LeetCode/72sortColor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wson/Desktop/Algorithm/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Algorithm.dir/LeetCode/72sortColor.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithm.dir/LeetCode/72sortColor.cpp.o -c /Users/wson/Desktop/Algorithm/Algorithm/LeetCode/72sortColor.cpp
+
+CMakeFiles/Algorithm.dir/LeetCode/72sortColor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm.dir/LeetCode/72sortColor.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wson/Desktop/Algorithm/Algorithm/LeetCode/72sortColor.cpp > CMakeFiles/Algorithm.dir/LeetCode/72sortColor.cpp.i
+
+CMakeFiles/Algorithm.dir/LeetCode/72sortColor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/LeetCode/72sortColor.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wson/Desktop/Algorithm/Algorithm/LeetCode/72sortColor.cpp -o CMakeFiles/Algorithm.dir/LeetCode/72sortColor.cpp.s
+
+CMakeFiles/Algorithm.dir/LeetCode/167twoSum.cpp.o: CMakeFiles/Algorithm.dir/flags.make
+CMakeFiles/Algorithm.dir/LeetCode/167twoSum.cpp.o: ../LeetCode/167twoSum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wson/Desktop/Algorithm/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Algorithm.dir/LeetCode/167twoSum.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithm.dir/LeetCode/167twoSum.cpp.o -c /Users/wson/Desktop/Algorithm/Algorithm/LeetCode/167twoSum.cpp
+
+CMakeFiles/Algorithm.dir/LeetCode/167twoSum.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm.dir/LeetCode/167twoSum.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wson/Desktop/Algorithm/Algorithm/LeetCode/167twoSum.cpp > CMakeFiles/Algorithm.dir/LeetCode/167twoSum.cpp.i
+
+CMakeFiles/Algorithm.dir/LeetCode/167twoSum.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/LeetCode/167twoSum.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wson/Desktop/Algorithm/Algorithm/LeetCode/167twoSum.cpp -o CMakeFiles/Algorithm.dir/LeetCode/167twoSum.cpp.s
+
+CMakeFiles/Algorithm.dir/LeetCode/125isPalindrome.cpp.o: CMakeFiles/Algorithm.dir/flags.make
+CMakeFiles/Algorithm.dir/LeetCode/125isPalindrome.cpp.o: ../LeetCode/125isPalindrome.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wson/Desktop/Algorithm/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Algorithm.dir/LeetCode/125isPalindrome.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithm.dir/LeetCode/125isPalindrome.cpp.o -c /Users/wson/Desktop/Algorithm/Algorithm/LeetCode/125isPalindrome.cpp
+
+CMakeFiles/Algorithm.dir/LeetCode/125isPalindrome.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm.dir/LeetCode/125isPalindrome.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wson/Desktop/Algorithm/Algorithm/LeetCode/125isPalindrome.cpp > CMakeFiles/Algorithm.dir/LeetCode/125isPalindrome.cpp.i
+
+CMakeFiles/Algorithm.dir/LeetCode/125isPalindrome.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/LeetCode/125isPalindrome.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wson/Desktop/Algorithm/Algorithm/LeetCode/125isPalindrome.cpp -o CMakeFiles/Algorithm.dir/LeetCode/125isPalindrome.cpp.s
+
+CMakeFiles/Algorithm.dir/LeetCode/209minSubArrayLen.cpp.o: CMakeFiles/Algorithm.dir/flags.make
+CMakeFiles/Algorithm.dir/LeetCode/209minSubArrayLen.cpp.o: ../LeetCode/209minSubArrayLen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wson/Desktop/Algorithm/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Algorithm.dir/LeetCode/209minSubArrayLen.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithm.dir/LeetCode/209minSubArrayLen.cpp.o -c /Users/wson/Desktop/Algorithm/Algorithm/LeetCode/209minSubArrayLen.cpp
+
+CMakeFiles/Algorithm.dir/LeetCode/209minSubArrayLen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm.dir/LeetCode/209minSubArrayLen.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wson/Desktop/Algorithm/Algorithm/LeetCode/209minSubArrayLen.cpp > CMakeFiles/Algorithm.dir/LeetCode/209minSubArrayLen.cpp.i
+
+CMakeFiles/Algorithm.dir/LeetCode/209minSubArrayLen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/LeetCode/209minSubArrayLen.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wson/Desktop/Algorithm/Algorithm/LeetCode/209minSubArrayLen.cpp -o CMakeFiles/Algorithm.dir/LeetCode/209minSubArrayLen.cpp.s
+
 # Object files for target Algorithm
 Algorithm_OBJECTS = \
 "CMakeFiles/Algorithm.dir/main.cpp.o" \
 "CMakeFiles/Algorithm.dir/BinarySearch/binarySearch.cpp.o" \
-"CMakeFiles/Algorithm.dir/LeetCode/283MoveZero.cpp.o"
+"CMakeFiles/Algorithm.dir/LeetCode/283MoveZero.cpp.o" \
+"CMakeFiles/Algorithm.dir/LeetCode/27removeElement.cpp.o" \
+"CMakeFiles/Algorithm.dir/Array/boundary.cpp.o" \
+"CMakeFiles/Algorithm.dir/LeetCode/72sortColor.cpp.o" \
+"CMakeFiles/Algorithm.dir/LeetCode/167twoSum.cpp.o" \
+"CMakeFiles/Algorithm.dir/LeetCode/125isPalindrome.cpp.o" \
+"CMakeFiles/Algorithm.dir/LeetCode/209minSubArrayLen.cpp.o"
 
 # External object files for target Algorithm
 Algorithm_EXTERNAL_OBJECTS =
@@ -128,9 +212,15 @@ Algorithm_EXTERNAL_OBJECTS =
 Algorithm: CMakeFiles/Algorithm.dir/main.cpp.o
 Algorithm: CMakeFiles/Algorithm.dir/BinarySearch/binarySearch.cpp.o
 Algorithm: CMakeFiles/Algorithm.dir/LeetCode/283MoveZero.cpp.o
+Algorithm: CMakeFiles/Algorithm.dir/LeetCode/27removeElement.cpp.o
+Algorithm: CMakeFiles/Algorithm.dir/Array/boundary.cpp.o
+Algorithm: CMakeFiles/Algorithm.dir/LeetCode/72sortColor.cpp.o
+Algorithm: CMakeFiles/Algorithm.dir/LeetCode/167twoSum.cpp.o
+Algorithm: CMakeFiles/Algorithm.dir/LeetCode/125isPalindrome.cpp.o
+Algorithm: CMakeFiles/Algorithm.dir/LeetCode/209minSubArrayLen.cpp.o
 Algorithm: CMakeFiles/Algorithm.dir/build.make
 Algorithm: CMakeFiles/Algorithm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wson/Desktop/Algorithm/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Algorithm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wson/Desktop/Algorithm/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Algorithm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Algorithm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

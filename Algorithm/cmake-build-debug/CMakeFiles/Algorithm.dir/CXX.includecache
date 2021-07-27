@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/wson/Desktop/Algorithm/Algorithm/LeetCode/283MoveZero.cpp
+/Users/wson/Desktop/Algorithm/Algorithm/LeetCode/125isPalindrome.cpp
 iostream
 -
-vector
+string
 -
 

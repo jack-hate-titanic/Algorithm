@@ -143,6 +143,33 @@ Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/build
 .PHONY : Algorithm/fast
 
+Array/boundary.o: Array/boundary.cpp.o
+
+.PHONY : Array/boundary.o
+
+# target to build an object file
+Array/boundary.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Array/boundary.cpp.o
+.PHONY : Array/boundary.cpp.o
+
+Array/boundary.i: Array/boundary.cpp.i
+
+.PHONY : Array/boundary.i
+
+# target to preprocess a source file
+Array/boundary.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Array/boundary.cpp.i
+.PHONY : Array/boundary.cpp.i
+
+Array/boundary.s: Array/boundary.cpp.s
+
+.PHONY : Array/boundary.s
+
+# target to generate assembly for a file
+Array/boundary.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Array/boundary.cpp.s
+.PHONY : Array/boundary.cpp.s
+
 BinarySearch/binarySearch.o: BinarySearch/binarySearch.cpp.o
 
 .PHONY : BinarySearch/binarySearch.o
@@ -170,6 +197,114 @@ BinarySearch/binarySearch.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/BinarySearch/binarySearch.cpp.s
 .PHONY : BinarySearch/binarySearch.cpp.s
 
+LeetCode/125isPalindrome.o: LeetCode/125isPalindrome.cpp.o
+
+.PHONY : LeetCode/125isPalindrome.o
+
+# target to build an object file
+LeetCode/125isPalindrome.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/LeetCode/125isPalindrome.cpp.o
+.PHONY : LeetCode/125isPalindrome.cpp.o
+
+LeetCode/125isPalindrome.i: LeetCode/125isPalindrome.cpp.i
+
+.PHONY : LeetCode/125isPalindrome.i
+
+# target to preprocess a source file
+LeetCode/125isPalindrome.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/LeetCode/125isPalindrome.cpp.i
+.PHONY : LeetCode/125isPalindrome.cpp.i
+
+LeetCode/125isPalindrome.s: LeetCode/125isPalindrome.cpp.s
+
+.PHONY : LeetCode/125isPalindrome.s
+
+# target to generate assembly for a file
+LeetCode/125isPalindrome.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/LeetCode/125isPalindrome.cpp.s
+.PHONY : LeetCode/125isPalindrome.cpp.s
+
+LeetCode/167twoSum.o: LeetCode/167twoSum.cpp.o
+
+.PHONY : LeetCode/167twoSum.o
+
+# target to build an object file
+LeetCode/167twoSum.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/LeetCode/167twoSum.cpp.o
+.PHONY : LeetCode/167twoSum.cpp.o
+
+LeetCode/167twoSum.i: LeetCode/167twoSum.cpp.i
+
+.PHONY : LeetCode/167twoSum.i
+
+# target to preprocess a source file
+LeetCode/167twoSum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/LeetCode/167twoSum.cpp.i
+.PHONY : LeetCode/167twoSum.cpp.i
+
+LeetCode/167twoSum.s: LeetCode/167twoSum.cpp.s
+
+.PHONY : LeetCode/167twoSum.s
+
+# target to generate assembly for a file
+LeetCode/167twoSum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/LeetCode/167twoSum.cpp.s
+.PHONY : LeetCode/167twoSum.cpp.s
+
+LeetCode/209minSubArrayLen.o: LeetCode/209minSubArrayLen.cpp.o
+
+.PHONY : LeetCode/209minSubArrayLen.o
+
+# target to build an object file
+LeetCode/209minSubArrayLen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/LeetCode/209minSubArrayLen.cpp.o
+.PHONY : LeetCode/209minSubArrayLen.cpp.o
+
+LeetCode/209minSubArrayLen.i: LeetCode/209minSubArrayLen.cpp.i
+
+.PHONY : LeetCode/209minSubArrayLen.i
+
+# target to preprocess a source file
+LeetCode/209minSubArrayLen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/LeetCode/209minSubArrayLen.cpp.i
+.PHONY : LeetCode/209minSubArrayLen.cpp.i
+
+LeetCode/209minSubArrayLen.s: LeetCode/209minSubArrayLen.cpp.s
+
+.PHONY : LeetCode/209minSubArrayLen.s
+
+# target to generate assembly for a file
+LeetCode/209minSubArrayLen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/LeetCode/209minSubArrayLen.cpp.s
+.PHONY : LeetCode/209minSubArrayLen.cpp.s
+
+LeetCode/27removeElement.o: LeetCode/27removeElement.cpp.o
+
+.PHONY : LeetCode/27removeElement.o
+
+# target to build an object file
+LeetCode/27removeElement.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/LeetCode/27removeElement.cpp.o
+.PHONY : LeetCode/27removeElement.cpp.o
+
+LeetCode/27removeElement.i: LeetCode/27removeElement.cpp.i
+
+.PHONY : LeetCode/27removeElement.i
+
+# target to preprocess a source file
+LeetCode/27removeElement.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/LeetCode/27removeElement.cpp.i
+.PHONY : LeetCode/27removeElement.cpp.i
+
+LeetCode/27removeElement.s: LeetCode/27removeElement.cpp.s
+
+.PHONY : LeetCode/27removeElement.s
+
+# target to generate assembly for a file
+LeetCode/27removeElement.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/LeetCode/27removeElement.cpp.s
+.PHONY : LeetCode/27removeElement.cpp.s
+
 LeetCode/283MoveZero.o: LeetCode/283MoveZero.cpp.o
 
 .PHONY : LeetCode/283MoveZero.o
@@ -196,6 +331,33 @@ LeetCode/283MoveZero.s: LeetCode/283MoveZero.cpp.s
 LeetCode/283MoveZero.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/LeetCode/283MoveZero.cpp.s
 .PHONY : LeetCode/283MoveZero.cpp.s
+
+LeetCode/72sortColor.o: LeetCode/72sortColor.cpp.o
+
+.PHONY : LeetCode/72sortColor.o
+
+# target to build an object file
+LeetCode/72sortColor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/LeetCode/72sortColor.cpp.o
+.PHONY : LeetCode/72sortColor.cpp.o
+
+LeetCode/72sortColor.i: LeetCode/72sortColor.cpp.i
+
+.PHONY : LeetCode/72sortColor.i
+
+# target to preprocess a source file
+LeetCode/72sortColor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/LeetCode/72sortColor.cpp.i
+.PHONY : LeetCode/72sortColor.cpp.i
+
+LeetCode/72sortColor.s: LeetCode/72sortColor.cpp.s
+
+.PHONY : LeetCode/72sortColor.s
+
+# target to generate assembly for a file
+LeetCode/72sortColor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/LeetCode/72sortColor.cpp.s
+.PHONY : LeetCode/72sortColor.cpp.s
 
 main.o: main.cpp.o
 
@@ -233,12 +395,30 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Algorithm"
+	@echo "... Array/boundary.o"
+	@echo "... Array/boundary.i"
+	@echo "... Array/boundary.s"
 	@echo "... BinarySearch/binarySearch.o"
 	@echo "... BinarySearch/binarySearch.i"
 	@echo "... BinarySearch/binarySearch.s"
+	@echo "... LeetCode/125isPalindrome.o"
+	@echo "... LeetCode/125isPalindrome.i"
+	@echo "... LeetCode/125isPalindrome.s"
+	@echo "... LeetCode/167twoSum.o"
+	@echo "... LeetCode/167twoSum.i"
+	@echo "... LeetCode/167twoSum.s"
+	@echo "... LeetCode/209minSubArrayLen.o"
+	@echo "... LeetCode/209minSubArrayLen.i"
+	@echo "... LeetCode/209minSubArrayLen.s"
+	@echo "... LeetCode/27removeElement.o"
+	@echo "... LeetCode/27removeElement.i"
+	@echo "... LeetCode/27removeElement.s"
 	@echo "... LeetCode/283MoveZero.o"
 	@echo "... LeetCode/283MoveZero.i"
 	@echo "... LeetCode/283MoveZero.s"
+	@echo "... LeetCode/72sortColor.o"
+	@echo "... LeetCode/72sortColor.i"
+	@echo "... LeetCode/72sortColor.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
