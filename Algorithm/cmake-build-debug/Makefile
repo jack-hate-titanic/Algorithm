@@ -224,6 +224,33 @@ LeetCode/125isPalindrome.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/LeetCode/125isPalindrome.cpp.s
 .PHONY : LeetCode/125isPalindrome.cpp.s
 
+LeetCode/15threeSum.o: LeetCode/15threeSum.cpp.o
+
+.PHONY : LeetCode/15threeSum.o
+
+# target to build an object file
+LeetCode/15threeSum.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/LeetCode/15threeSum.cpp.o
+.PHONY : LeetCode/15threeSum.cpp.o
+
+LeetCode/15threeSum.i: LeetCode/15threeSum.cpp.i
+
+.PHONY : LeetCode/15threeSum.i
+
+# target to preprocess a source file
+LeetCode/15threeSum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/LeetCode/15threeSum.cpp.i
+.PHONY : LeetCode/15threeSum.cpp.i
+
+LeetCode/15threeSum.s: LeetCode/15threeSum.cpp.s
+
+.PHONY : LeetCode/15threeSum.s
+
+# target to generate assembly for a file
+LeetCode/15threeSum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/LeetCode/15threeSum.cpp.s
+.PHONY : LeetCode/15threeSum.cpp.s
+
 LeetCode/167twoSum.o: LeetCode/167twoSum.cpp.o
 
 .PHONY : LeetCode/167twoSum.o
@@ -404,6 +431,9 @@ help:
 	@echo "... LeetCode/125isPalindrome.o"
 	@echo "... LeetCode/125isPalindrome.i"
 	@echo "... LeetCode/125isPalindrome.s"
+	@echo "... LeetCode/15threeSum.o"
+	@echo "... LeetCode/15threeSum.i"
+	@echo "... LeetCode/15threeSum.s"
 	@echo "... LeetCode/167twoSum.o"
 	@echo "... LeetCode/167twoSum.i"
 	@echo "... LeetCode/167twoSum.s"

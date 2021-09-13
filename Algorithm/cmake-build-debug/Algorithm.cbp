@@ -89,6 +89,9 @@
 		<Unit filename="/Users/wson/Desktop/Algorithm/Algorithm/LeetCode/125isPalindrome.cpp">
 			<Option target="Algorithm"/>
 		</Unit>
+		<Unit filename="/Users/wson/Desktop/Algorithm/Algorithm/LeetCode/15threeSum.cpp">
+			<Option target="Algorithm"/>
+		</Unit>
 		<Unit filename="/Users/wson/Desktop/Algorithm/Algorithm/LeetCode/167twoSum.cpp">
 			<Option target="Algorithm"/>
 		</Unit>

@@ -31,11 +31,11 @@ TreeNode *createBinaryTreeByArray(int arr[], int arrLength, int index)
   return tn;
 }
 
-int main()
-{
-  int arr[] = {1, 2, 3, 4, 5, 6};
-  int arrLength = sizeof(arr) / sizeof(arr[0]);
-  TreeNode *binaryTree = createBinaryTreeByArray(arr, arrLength, 0);
-  cout << binaryTree->left->left->val << endl;
-  return 0;
-}
+//int main()
+//{
+//  int arr[] = {1, 2, 3, 4, 5, 6};
+//  int arrLength = sizeof(arr) / sizeof(arr[0]);
+//  TreeNode *binaryTree = createBinaryTreeByArray(arr, arrLength, 0);
+//  cout << binaryTree->left->left->val << endl;
+//  return 0;
+//}
